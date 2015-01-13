@@ -10,7 +10,6 @@ pthread_mutex_t mutex[100];
 int n;
 
 void sort(int i) {
-  fflush(0);
   int j;
   for (j=0; j<n; ++j) {
     if (num[j] < num[i]) {
